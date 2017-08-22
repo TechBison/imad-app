@@ -12,8 +12,20 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
+aap.get('/article-one',function(req,res){
+    res.send('article-one is requested and will be served here');
+});
+aap.get('/article-two',function(req,res){
+    res.send('article-two is requested and will be served here');
+});
+aap.get('/article-three',function(req,res){
+    res.send('article-three is requested and will be served here');
+});
+aap.get('/article-four',function(req,res){
+    res.send('article-four is requested and will be served here');
+});
 
-app.get('/ui/madi.png', function (req, res) {
+app.get('/http://icon-icons.com/icons2/1310/PNG/512/paper-plane_86321.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
