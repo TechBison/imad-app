@@ -25,7 +25,7 @@ aap.get('/article-four',function(req,res){
     res.send('article-four is requested and will be served here');
 });
 
-app.get('/http://icon-icons.com/icons2/1310/PNG/512/paper-plane_86321.png', function (req, res) {
+app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
